@@ -1,0 +1,9 @@
+Composite: When I login into trello
+
+When I click on element located `By.Xpath(//a[text()="Log In"])`
+When I enter `${UserEmail}` in field located `By.Xpath(//*[@id="user"])`
+When I wait until element located `By.Xpath(//input[@value="Log in with Atlassian"])` appears
+When I click on element located `By.Xpath(//input[@value="Log in with Atlassian"])`
+When I wait until element located `By.Xpath(//button[@id="login-submit"])` appears
+When I enter `${UserPass}` in field located `By.Xpath(//*[@id="password"])`
+When I click on element located `By.Xpath(//button[@id="login-submit"])`
