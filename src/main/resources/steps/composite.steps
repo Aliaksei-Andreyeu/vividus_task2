@@ -8,3 +8,10 @@ When I wait until element located `By.Xpath(//button[@id="login-submit"])` appea
 When I enter `${UserPass}` in field located `By.Xpath(//*[@id="password"])`
 When I click on element located `By.Xpath(//button[@id="login-submit"])`
 When I wait until the page title contains the text '| Trello'
+
+
+Composite: When I go to settings page
+
+When I click on element located `By.Xpath(//span[text()="T"])`
+When I click on element located `By.xpath(//a[@data-test-id="header-member-menu-settings"])`
+When I wait until the page title contains the text 'Settings'
