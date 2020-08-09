@@ -1,11 +1,6 @@
 {
 		"TEST-5134": {
 			"type": "Internal",
-			"assertionPattern": ".*number of elements is a value equal.*",
-			"storyPattern": ".*Task4.*",
-			"scenarioPattern": ".*Failing Intentionally.*"
-			"stepPattern": ".*Then a link with the text. *",
-			
-		}
-	
+			"assertionPattern": "The number of found elements.*"
+    }
 }
