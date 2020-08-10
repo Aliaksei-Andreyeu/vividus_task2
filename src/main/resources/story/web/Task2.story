@@ -1,3 +1,4 @@
+GivenStories: story/web/PreCondition.story
 Scenario: Sign In
 Given I am on the main application page
 When I click on element located `By.Xpath(//a[text()="Log In"])`
@@ -39,7 +40,9 @@ When I wait until element located `By.Xpath(//span[text()="Save"])` appears
 When I COMPARE_AGAINST baseline with `Edit_Team`
 When I click on element located `By.Xpath(//span[text()="T"])`
 When I click on element located `By.Xpath(//span[text()="Profile and Visibility"])`
+When I wait until element located `By.Xpath(//button[text()="Save"])` appears
 When I COMPARE_AGAINST baseline with `Profile_and_Visibility`
+
 
 
 
