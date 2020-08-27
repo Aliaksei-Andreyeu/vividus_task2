@@ -10,5 +10,5 @@ When I enter `#{generate(Internet.password)}` in field located `By.Xpath(//*[@id
 When I click on element located `By.Xpath(//span[text()="Sign up"])`
 Then the page title is 'Crushed by captcha'
 Examples:
-|email               |fullname    |
-|johndoe@example.com |John Doe    |
+|email              |fullname|
+|johndoe@example.com|John Doe|

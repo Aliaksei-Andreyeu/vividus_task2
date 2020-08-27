@@ -19,7 +19,7 @@ When I ESTABLISH baseline with `Settings_Page`
 When I click on element located `By.Xpath(//a[contains(@data-tab, "business-class")])`
 When I wait until element located `By.Xpath(//span[text()="Start Business Class"])` appears
 When I ESTABLISH baseline with `Business_Class_Tab`
-When I click on element located `By.Xpath(//span[@name="edit"])`
+When I click on element located `By.Xpath(//span[text()="Edit Team Profile"])`
 When I wait until element located `By.Xpath(//span[text()="Save"])` appears
 When I ESTABLISH baseline with `Edit_Team`
 When I click on element located `By.Xpath(//span[text()="T"])`
@@ -35,14 +35,10 @@ When I COMPARE_AGAINST baseline with `Settings_Page`
 When I click on element located `By.Xpath(//a[contains(@data-tab, "business-class")])`
 When I wait until element located `By.Xpath(//span[text()="Start Business Class"])` appears
 When I COMPARE_AGAINST baseline with `Business_Class_Tab`
-When I click on element located `By.Xpath(//span[@name="edit"])`
+When I click on element located `By.Xpath(//span[text()="Edit Team Profile"])`
 When I wait until element located `By.Xpath(//span[text()="Save"])` appears
 When I COMPARE_AGAINST baseline with `Edit_Team`
 When I click on element located `By.Xpath(//span[text()="T"])`
 When I click on element located `By.Xpath(//span[text()="Profile and Visibility"])`
 When I wait until element located `By.Xpath(//button[text()="Save"])` appears
 When I COMPARE_AGAINST baseline with `Profile_and_Visibility`
-
-
-
-
