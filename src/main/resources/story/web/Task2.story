@@ -22,7 +22,7 @@ When I ESTABLISH baseline with `Business_Class_Tab`
 When I click on element located `By.Xpath(//span[text()="Edit Team Profile"])`
 When I wait until element located `By.Xpath(//span[text()="Save"])` appears
 When I ESTABLISH baseline with `Edit_Team`
-When I click on element located `By.Xpath(//span[text()="T"])`
+When I click on element located `By.Xpath(span[@class="_24AWINHReYjNBf"])`
 When I click on element located `By.Xpath(//span[text()="Profile and Visibility"])`
 When I ESTABLISH baseline with `Profile_and_Visibility`
 

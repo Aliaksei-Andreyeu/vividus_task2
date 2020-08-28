@@ -1,10 +1,10 @@
 {
 "TEST-5134": {
-	"type": "Internal",
-	"assertionPattern": "The number of found elements.*"
+    "type": "Internal",
+    "assertionPattern": "The number of found elements.*"
     },
 "TEST-5997": {
-	"type": "Internal",
-	"assertionPattern": "Page title.*"
+    "type": "Internal",
+    "assertionPattern": "Page title.*"
     }
 }
